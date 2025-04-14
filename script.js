@@ -145,7 +145,7 @@ function cursorAnimation() {
 
       video.play()
       video.style.opacity = 1
-      document.querySelector(`#video-cursor`).innerHTML = `<i class="ri-pause-mini-fill></i>`
+      document.querySelector(`#video-cursor`).innerHTML = '<i class="ri-pause-mini-fill"></i>'
       gsap.to(`#video-cursor`, {
         scale: 0.5
       })
@@ -154,7 +154,7 @@ function cursorAnimation() {
     else{
       video.pause()
       video.style.opacity = 0
-      document.querySelector(`#video-cursor`).innerHTML = `<i class="ri-play-mini-fill></i>`
+      document.querySelector(`#video-cursor`).innerHTML = '<i class="ri-play-mini-fill"></i>'
       gsap.to(`#video-cursor`, {
         scale: 1
       })
