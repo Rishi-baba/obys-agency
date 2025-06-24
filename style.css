@@ -67,6 +67,10 @@ body {
     background-color: #030303;
     padding: 25vh 10vw;
 }
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
 
 .line {
     /* background-color: red; */
